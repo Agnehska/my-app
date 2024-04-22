@@ -1,0 +1,47 @@
+*{
+  margin: 5px 0;
+  
+}
+
+li{
+  text-align: start;
+  list-style: none;
+}
+
+
+hr{
+  border-color:black;
+}
+
+.App{
+  background-color: rgb(49, 152, 237);
+  text-align: center;
+}
+
+.prod_btn{
+  background-color: rgb(59, 236, 43);
+  border-radius: 8px;
+  width: 90px;
+  margin: 0 auto;
+}
+
+.prod_container{
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 700px;
+}
+
+.prod_carts{
+  padding: 10px 0;
+  background-color: bisque;
+  display: flex;
+  margin: 0 auto;
+  width: 200px;
+  height: 150px;
+  flex-direction: column;
+  text-align: center;
+  border: 3px solid black;
+}
+
